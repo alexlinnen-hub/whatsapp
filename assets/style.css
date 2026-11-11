@@ -1,13 +1,14 @@
-/* Brand tokens: swap these for the Focus Group brand kit when supplied. */
+/* Focus Group brand colours (Focus Group brand writing guide, Sept 2026). */
 :root {
-  --brand: #0b2545;        /* primary (navy) */
-  --brand-ink: #ffffff;
-  --accent: #13a89e;       /* accent (teal) */
-  --accent-soft: #e6f6f5;
-  --ink: #1b2430;
-  --muted: #5b6676;
-  --line: #e3e7ee;
-  --bg: #f6f8fb;
+  --brand: #1F1A39;        /* Prime Navy: headings, key text, dark backgrounds */
+  --brand-ink: #FFFFFF;    /* White: text on dark backgrounds */
+  --accent: #39476D;       /* Prime Blue: supporting elements, sub-headings */
+  --accent-soft: #E8F5F9;  /* Light blue-grey: backgrounds, info panels */
+  --grey: #ECEBEC;         /* Grey: secondary supporting colour */
+  --ink: #1F1A39;
+  --muted: #55526a;
+  --line: #ECEBEC;
+  --bg: #F6FAFB;
   --card: #ffffff;
   --warn-bg: #fff7e6;
   --warn-line: #f0c36d;
@@ -38,18 +39,19 @@ a:hover { text-decoration: none; }
   gap: 16px; padding: 14px 24px; max-width: 1180px; margin: 0 auto;
 }
 .wordmark { font-weight: 700; letter-spacing: .02em; font-size: 18px; color: inherit; text-decoration: none; }
-.wordmark span { color: var(--accent); }
+.wordmark span { color: var(--accent-soft); font-weight: 400; }
 .site-header nav a { color: #cfd8e6; text-decoration: none; font-size: 14px; margin-left: 18px; }
 .site-header nav a:hover { color: #fff; }
 
 .hero {
-  background: linear-gradient(180deg, var(--brand) 0%, #13335c 100%);
+  background: linear-gradient(160deg, var(--brand) 0%, var(--accent) 100%);
   color: var(--brand-ink);
   padding: 40px 0 48px;
 }
 .hero .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
 .hero h1 { margin: 0 0 10px; font-size: clamp(26px, 3.4vw, 38px); line-height: 1.2; }
-.hero p { margin: 0; max-width: 760px; color: #d9e2ef; font-size: 17px; }
+.hero p { margin: 0; max-width: 760px; color: var(--accent-soft); font-size: 17px; }
+.strap { margin-top: 6px; font-weight: 600; letter-spacing: .01em; }
 .meta { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 13px; }
 .pill {
   display: inline-block; padding: 4px 10px; border-radius: 999px;
@@ -100,7 +102,7 @@ main h3 { margin: 22px 0 8px; font-size: 17px; }
 .checklist input { width: 20px; height: 20px; margin-top: 3px; accent-color: var(--accent); }
 .checklist strong { display: block; }
 .checklist span { color: var(--muted); font-size: 15px; }
-.checklist li.key { background: var(--warn-bg); border-radius: 8px; padding: 12px; border: 1px solid var(--warn-line); margin: 6px 0; }
+.checklist li.key { background: var(--accent-soft); border-radius: 8px; padding: 12px; border: 1px solid var(--accent); margin: 6px 0; }
 
 /* Steps */
 .steps { counter-reset: step; list-style: none; padding: 0; margin: 0; }
