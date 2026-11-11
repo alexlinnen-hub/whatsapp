@@ -184,3 +184,9 @@ footer { text-align: center; color: var(--muted); font-size: 13px; padding: 24px
   .site-header .logo { display: none; }
   .print-logo { display: block; height: 58px; width: auto; margin-bottom: 12px; }
 }
+
+/* Gate step: must be done before the appointment */
+.steps li.gate::before { background: #F7D338; color: var(--brand); }
+.steps li.gate { padding-bottom: 24px; }
+.steps li.gate p { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 8px; padding: 12px 14px; color: var(--ink); }
+.steps li.gate .who { color: var(--brand); }
