@@ -188,5 +188,12 @@ footer { text-align: center; color: var(--muted); font-size: 13px; padding: 24px
 /* Gate step: must be done before the appointment */
 .steps li.gate::before { background: #F7D338; color: var(--brand); }
 .steps li.gate { padding-bottom: 24px; }
-.steps li.gate p { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 8px; padding: 12px 14px; color: var(--ink); }
+.gate-box { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 8px; padding: 14px 16px; color: var(--ink); margin-top: 6px; }
+.substeps { margin: 0 0 12px; padding-left: 20px; }
+.substeps li { margin: 0 0 8px; padding: 0; border: 0; }
+.substeps li::before { content: none; }
+.shot { display: block; max-width: 100%; border: 1px solid var(--line); border-radius: 6px; margin: 8px 0 4px; background: #fff; }
+.gate-stop { margin: 0; font-weight: 600; color: var(--brand) !important; }
 .steps li.gate .who { color: var(--brand); }
+.steps .substeps li { counter-increment: none; margin: 0 0 8px; padding: 0; border: 0; position: static; list-style: decimal; }
+.steps .substeps li::before { content: none; }
