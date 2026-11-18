@@ -197,3 +197,8 @@ footer { text-align: center; color: var(--muted); font-size: 13px; padding: 24px
 .steps li.gate .who { color: var(--brand); }
 .steps .substeps li { counter-increment: none; margin: 0 0 8px; padding: 0; border: 0; position: static; list-style: decimal; }
 .steps .substeps li::before { content: none; }
+
+.copyable { font-family: inherit; }
+.copy-btn { margin-left: 8px; font: inherit; font-size: 13px; padding: 3px 10px; border-radius: 6px; border: 1px solid var(--accent); background: #fff; color: var(--accent); cursor: pointer; }
+.copy-btn:hover { background: var(--accent-soft); }
+.note.warn { border-left-color: #F7D338; background: #FFFBEA; }

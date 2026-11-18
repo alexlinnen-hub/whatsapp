@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhatsApp Business setup: number purchase and verification | Focus Group</title>
+<meta name="description" content="Buy a business phone number and verify it with Meta, ready for Focus Group to connect WhatsApp to your AI agent.">
+<link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="../../" aria-label="Focus Group home"><img src="../../assets/img/focus-group-logo-white.png" alt="Focus Group"></a>
+    <nav>
+      <a href="../../">All guides</a>
+      <a href="../">Meta steps</a>
+      <a href="#help">Help</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <img class="print-logo" src="../../assets/img/focus-group-logo-navy.png" alt="Focus Group">
+    <h1>WhatsApp Business setup: number purchase and verification</h1>
+    <p>Get a phone number for WhatsApp and verify it with Meta. Once it shows as verified, send it to Focus Group and we'll connect it to your AI agent.</p>
+    <div class="meta">
+      <span class="pill">Guide 2 of 2</span>
+      <span class="pill">Last updated 18 November 2026</span>
+      <span class="pill">About 15 minutes</span>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <aside class="toc">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#buy">1. Buy a business phone number</a></li>
+      <li><a href="#verify">2. Add and verify the number</a></li>
+      <li><a href="#help">If the number shows Unverified</a></li>
+    </ol>
+  </aside>
+
+  <main>
+    <section id="buy">
+      <h2>1. Buy a business phone number</h2>
+      <p class="lead">Your WhatsApp number needs to be one that customers can message and that Meta can verify.</p>
+      <ul class="checklist">
+        <li><input type="checkbox" aria-label="done"><div><strong>Buy a number from a provider</strong><span>We'd recommend Bird or Twilio, though other providers work too, such as your existing provider, Vonage, BT or Virgin.</span></div></li>
+        <li class="key"><input type="checkbox" aria-label="done"><div><strong>Confirm the number can receive an SMS or a voice call</strong><span>Meta sends a verification code to it.</span></div></li>
+        <li class="key"><input type="checkbox" aria-label="done"><div><strong>Confirm the number isn't already registered on WhatsApp</strong><span>Personal or business. A number still in use on the WhatsApp or WhatsApp Business app can't be connected.</span></div></li>
+        <li><input type="checkbox" aria-label="done"><div><strong>Avoid VoIP, Skype or virtual numbers</strong><span>These often fail Meta's verification.</span></div></li>
+      </ul>
+    </section>
+
+    <section id="verify">
+      <h2>2. Add and verify the number</h2>
+      <p class="lead">Do this in Meta Business Suite, in the business portfolio you set up in the <a href="../">Meta steps guide</a>.</p>
+      <ol class="steps">
+        <li><h3>Open your business settings</h3><p>In <a href="https://business.facebook.com/" target="_blank" rel="noopener">Meta Business Suite</a>, go to your business account settings and select <strong>Category</strong> and <strong>Business description</strong>.</p></li>
+        <li><h3>Start verification</h3><p>Select <strong>Next</strong> to begin phone number verification.</p></li>
+        <li><h3>Enter the number</h3><p>Select your country code and enter the number you bought.</p></li>
+        <li><h3>Choose how to get the code</h3><p>Choose <strong>Text message</strong> or <strong>Phone</strong>, then click <strong>Next</strong>.</p></li>
+        <li><h3>Enter the code</h3><p>Enter the verification code once you receive it and click <strong>Next</strong>.</p></li>
+        <li><h3>Done</h3><p>The number is now verified and ready to use.</p></li>
+      </ol>
+      <p class="note">Once the number shows as verified, send it to Focus Group, along with the details listed under <a href="../#send">What to send us</a>. We'll connect it to your AI agent from there.</p>
+    </section>
+
+    <section id="help">
+      <h2>If the number shows Unverified</h2>
+      <p class="lead">An Unverified number can't be connected, so it's worth checking before you send it to us. It's fine if the display name is still in review.</p>
+      <ol class="steps">
+        <li><h3>Open your phone numbers</h3><p>Go to <a href="https://business.facebook.com/wa/manage/phone-numbers/" target="_blank" rel="noopener">WhatsApp Manager</a>, then <strong>Account tools → Phone numbers</strong>.</p></li>
+        <li><h3>Open the Profile tab</h3><p>Click your number (or the cog next to it) and open the <strong>Profile</strong> tab.</p></li>
+        <li><h3>Send the code</h3><p>Where it says <strong>Phone number verification required</strong>, click <strong>Send verification code</strong> and enter the code Meta sends.</p>
+          <img class="shot" src="../../assets/img/wa-manager-verify.png" alt="WhatsApp Manager message: Phone number verification required, with a Send verification code link"></li>
+        <li><h3>Check the display name</h3><p>On the same tab, if the display name shows <strong>Rejected</strong>, click <strong>Edit</strong>, change it to your business name and resubmit.</p></li>
+      </ol>
+    </section>
+  </main>
+</div>
+
+<footer><strong>Let's connect. Let's grow.</strong><br>Focus Group · Customer onboarding guides · This page is updated in place, so the link always shows the latest version.</footer>
+
+<script>
+  const links = [...document.querySelectorAll('.toc a')];
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id)); });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  document.querySelectorAll('main section').forEach(s => obs.observe(s));
+</script>
+</body>
+</html>
